@@ -50,6 +50,9 @@
       .inner-box {
         margin: 2% 2%;
       }
+      a {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -162,14 +165,15 @@
           freelancer
         </p>
       </div>
-      <div class="d-flex justify-content-center"><a
-        href="https://drive.google.com/file/d/1ZgQqN7-qcknIpkUEZxj7wo1fSoK12R8M/view"
-        target="_blank"
-        class="btn btn-lg download-btn mx-auto  text-info btn-outline-info"
-      >
-        Download CV<i class="fa-regular ms-2 fa-angles-right"></i>
-      </a></div>
-      
+      <div class="d-flex justify-content-center">
+        <a
+          href="https://drive.google.com/file/d/1QIlG-qcYSv7dbpcmfjtVhLOSBgzigk3H/view?usp=sharing"
+          target="_blank"
+          class="btn btn-lg download-btn mx-auto text-info btn-outline-info"
+        >
+          Download CV<i class="fa-regular ms-2 fa-angles-right"></i>
+        </a>
+      </div>
     </section>
     <section id="skills" class="py-5">
       <div class="container">
@@ -182,7 +186,7 @@
           <img src="img/icons8-html-5.svg" width="18%" alt="" />
           <img src="img/icons8-css3.svg" width="18%" alt="" />
           <img src="img/icons8-javascript.svg" width="18%" alt="" />
-          <img src="img/icons8-php-logo.svg" width="18%" alt="" />
+          <img src="img/icons8-react.svg" width="18%" alt="" />
         </div>
 
         <h3 class="text-center text-white mt-5">
@@ -204,142 +208,86 @@
         </div>
       </div>
     </section>
-    <section id="works" class="py-5">
-      <h1 class="display-4 text-info font-monospace text-center mb-4">Works</h1>
-      <div class="container-fluid">
-        <div class="row row-cols-1">
-          <div class="col-md-4 outer-box p-2">
-            <a
-              href="https://razer-pranam451.vercel.app/"
-              class="text-decoration-none"
-              target="_blank"
-            >
-              <div
-                class="inner-box d-flex px-3 py-5 rounded flex-column justify-content-center"
-                style="
-                  background-image: url(img/razer-logo.png);
-                  background-size: contain;
-                  background-repeat: no-repeat;
-                  background-position: right;
-                  background-color: #00ff00a3;
-                  backdrop-filter: contrast(66.5);
-                "
-              >
-                <h1 class="fw-bold text-white mb-0">RAZER</h1>
-                <h4 class="text-info text-uppercase">UI Landing Page</h4>
+    <section id="works" class="py-5 px-5">
+      <h1 class="display-4 font-monospace text-info text-center mb-5">Works</h1>
+      <h1 class="text-white fw-normal">
+        <span class="text-info">UI</span> Landing Pages
+      </h1>
+      <div class="w-100 row row-cols-md-4 row-cols-md-2">
+        <div class="col-12 workCol p-2">
+          <a href="https://razer-pranam451.vercel.app/" target="_blank">
+            <div class="card" style="background-color: #222222">
+              <img src="img/razer.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="text-white">Razer Website</h3>
               </div>
-            </a>
-          </div>
-          <div class="col-md-4 outer-box p-2">
-            <a
-              href="https://free-fit-ux-website2.vercel.app/"
-              class="text-decoration-none"
-              target="_blank"
-            >
-              <div
-                class="inner-box d-flex px-3 py-5 rounded flex-column justify-content-center"
-                style="
-                  background-image: url(img/gym.png);
-                  background-size: cover;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-color: #bf3620 !important;
-                  backdrop-filter: contrast(0.5);
-                  background-position-x: 86px;
-                "
-              >
-                <h1 class="fw-bold text-white mb-0">Free Fit</h1>
-                <h4 class="text-info text-uppercase">UX Landing Page</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 workCol p-2">
+          <a href="https://resto-bootsrap-website.vercel.app/" target="_blank">
+            <div class="card" style="background-color: #222222">
+              <img src="img/resto.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="text-white">Resto Website</h3>
               </div>
-            </a>
-          </div>
-          <div class="col-md-4 outer-box p-2">
-            <a
-              href="https://resto-bootsrap-website.vercel.app/"
-              class="text-decoration-none"
-              target="_blank"
-            >
-              <div
-                class="inner-box d-flex px-3 py-5 rounded flex-column justify-content-center"
-                style="
-                  background-image: url(img/chinese-food.png);
-                  background-size: contain;
-                  background-repeat: no-repeat;
-                  background-position: right;
-                  background-color: #eab002;
-                "
-              >
-                <h1 class="fw-bold text-white mb-0">Resto</h1>
-                <h4 class="text-info text-uppercase">UI Landing Page</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 workCol p-2">
+          <a href="https://free-fit-ux-website2.vercel.app/" target="_blank">
+            <div class="card" style="background-color: #222222">
+              <img src="img/freefit.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="text-white">Free Fit Website</h3>
               </div>
-            </a>
-          </div>
-          <div class="col-md-4 outer-box p-2">
-            <a
-              href="https://webboyz-ux-website1.vercel.app/"
-              class="text-decoration-none"
-              target="_blank"
-            >
-              <div
-                class="inner-box d-flex px-3 py-5 rounded flex-column justify-content-center"
-                style="
-                  background-image: url(img/icons8-monitor-50.png);
-                  background-size: contain;
-                  background-repeat: no-repeat;
-                  background-position: right;
-                  background-color: #24dc97;
-                  backdrop-filter: contrast(66.5);
-                "
-              >
-                <h1 class="fw-bold text-white mb-0">Webboyz</h1>
-                <h4 class="text-white text-uppercase">UX Landing Page</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 workCol p-2">
+          <a href="https://webboyz-ux-website1.vercel.app/" target="_blank">
+            <div class="card" style="background-color: #222222">
+              <img src="img/web.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="text-white">Razer Website</h3>
               </div>
-            </a>
-          </div>
-          <div class="col-md-4 outer-box p-2">
-            <a
-              href="https://pichub-lilac.vercel.app/"
-              class="text-decoration-none"
-              target="_blank"
-            >
-              <div
-                class="inner-box d-flex px-3 py-5 rounded flex-column justify-content-center"
-                style="
-                  background-image: url(img/digital-camera.png);
-                  background-size: contain;
-                  background-repeat: no-repeat;
-                  background-position: right;
-                  background-color: #0dcaf0;
-                  backdrop-filter: contrast(66.5);
-                "
-              >
-                <h1 class="fw-bold text-white mb-0">Pic Hub</h1>
-                <h4 class="text-white text-uppercase">Unsplash Clone</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <h1 class="text-white fw-normal mt-5">
+        <span class="text-info">React</span> & Venilla Js Projects
+      </h1>
+      <div class="w-100 row row-cols-md-4 row-cols-md-2">
+        <div class="col-12 workCol p-2">
+          <a href="https://splitter-coral.vercel.app/" target="_blank">
+            <div class="card" style="background-color: #222222">
+              <img src="img/pichub.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="text-white">Unsplash Clone</h3>
               </div>
-            </a>
-          </div>
-          <div class="col-md-4 outer-box p-2">
-            <a
-              href="https://splitter-coral.vercel.app/"
-              class="text-decoration-none"
-              target="_blank"
-            >
-              <div
-                class="inner-box d-flex px-3 py-5 rounded flex-column justify-content-center"
-                style="
-                  background-image: url(img/receipt.png);
-                  background-size: contain;
-                  background-repeat: no-repeat;
-                  background-position: right;
-                  background-color: #0d6efd;
-                  backdrop-filter: contrast(66.5);
-                "
-              >
-                <h1 class="fw-bold text-white mb-0">Bill Spitter</h1>
-                <h4 class="text-white text-uppercase">Venilla Js Project</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 workCol p-2">
+          <a href="https://crypto-app-ten-wine.vercel.app/" target="_blank">
+            <div class="card" style="background-color: #222222">
+              <img src="img/crypto.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="text-white">Cryptocurrency Website</h3>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 workCol p-2">
+          <a href="https://weather-app-pranam451.vercel.app/" target="_blank">
+            <div class="card" style="background-color: #222222">
+              <img src="img/weather.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="text-white">Weather App</h3>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -440,6 +388,36 @@
         </div>
       </div>
     </section>
+    <footer>
+      <hr class="bg-secondary" />
+      <div class="w-100 py-3 justify-content-center d-flex">
+        <div class="icon ms-0 ms-md-5">
+          <a
+            href="https://www.instagram.com/mr_.prx_nx_m/"
+            target="_blank"
+            class="text-decoration-none text-white me-4"
+            ><i class="fab fa-instagram h2"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/pranam-p-73b242239/"
+            target="_blank"
+            class="text-decoration-none text-white me-4"
+            ><i class="fab fa-linkedin-in h2"></i
+          ></a>
+          <a
+            href="https://github.com/Pranam451"
+            target="_blank"
+            class="text-decoration-none text-white me-4"
+            ><i class="fab fa-github h2"></i
+          ></a>
+          <a
+            href="mailto:ppranam451@gmail.com"
+            class="text-decoration-none text-white me-4"
+            ><i class="fa-regular fa-envelope h2"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
